@@ -1,4 +1,4 @@
-from capitalize import capitalize
+from functions.capitalize import capitalize
 
 
 if capitalize('hello') != 'Hello':
