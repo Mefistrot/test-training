@@ -1,10 +1,14 @@
 from functions.capitalize import capitalize
 
 
-if capitalize('hello') != 'Hello':
-    raise Exception('Функция работает неверно!')
+assert capitalize('hello') == 'Hello'
 
-if capitalize('') != '':
-    raise Exception('Функция работает неверно!')
+# if capitalize('hello') != 'Hello':
+#    raise Exception('Функция работает неверно!')
+
+assert capitalize('') == ''
+
+# if capitalize('') != '':
+#    raise Exception('Функция работает неверно!')
 
 print('Все тесты пройдены!')
